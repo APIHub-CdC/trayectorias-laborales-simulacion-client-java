@@ -1,6 +1,6 @@
 # trayectorias-laborales-simulacion-client-java
 
-API para consulta de trayectorias Laborales (Empleos, Cedulas y Listas).
+API para consulta de Trayectorias Laborales (Empleos, Cedulas y Listas).
 
 ## Requisitos
 
@@ -38,7 +38,7 @@ Al iniciar sesión seguir los siguientes pasos:
 
 ### Paso 2. Capturar los datos de la petición
 
-Los siguientes datos a modificar se encuentran en ***src/test/java/io/lae/client/api/LoanAmountEstimatorSimulacionApiTest.java***
+Los siguientes datos a modificar se encuentran en ***src/test/java/io/lae/client/api/ApiTest.java***
 
 Es importante contar con el setUp() que se encargará de inicializar la petición. Por tanto, se debe modificar la URL (**urlApi**); el usuario (**Username**) y contraseña (**Password**) de autenticación de acceso básica; y la API KEY (**xApiKey**), como se muestra en el siguiente fragmento de código:
 
